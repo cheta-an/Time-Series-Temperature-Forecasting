@@ -15,7 +15,6 @@ This project utilizes data from the Meteostat API to perform time-series analysi
 1. Clone the repository:
    ```bash
    git clone https://github.com/cheta-an/Time-Series-Forecasting-Temperature.git
-   cd Time-Series-Forecasting-Temperature
    ```
 2. Install the required dependencies:
    ```bash
@@ -27,13 +26,13 @@ To run the analysis, use the provided Jupyter notebook in the notebooks director
    jupyter notebook notebooks/code.ipynb
    ```
 ## Customization
-You can customize the forecast by changing the location or the training data period:
+You can customize the forecast by changing the location or the training data period.
 
 1. Change Location:
    Modify the latitude and longitude in the code to forecast the temperature for another location. For example, to set the location to London, UK:
    ```bash
-   new_location = Point(51.5074, -0.1278)
-   data = Monthly(new_location, start, end) 
+   location = Point(51.5074, -0.1278)
+   data = Monthly(location, start, end) 
    data = data.fetch()
    ```
 
