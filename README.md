@@ -28,16 +28,14 @@ To run the analysis, use the provided Jupyter notebook in the notebooks director
 ## Customization
 You can customize the forecast by changing the location or the training data period.
 
-1. Change Location:
-   Modify the latitude and longitude in the code to forecast the temperature for another location. For example, to set the location to London, UK:
+1. Modify the latitude and longitude in the code to forecast the temperature for another location. For example, to set the location to London, UK:
    ```bash
    location = Point(51.5074, -0.1278)
    data = Monthly(location, start, end) 
    data = data.fetch()
    ```
 
-2. Change Training Data Period:
-   Adjust the start and end datetime values to change the training data period. For example, to set the training data from January 2010 to December 2020:
+2. Adjust the start and end datetime values to change the training data period. For example, to set the training data from January 2010 to December 2020:
    ```bash
    start = datetime(2010, 1, 1)
    end = datetime(2021, 1, 1)
