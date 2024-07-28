@@ -33,7 +33,7 @@ You can customize the forecast by changing the location or the training data per
    location = Point(51.5074, -0.1278)
    ```
 
-2. Adjust the start and end datetime values to change the training data period. For example, to set the training data from January 2010 to December 2020:
+2. Adjust the start and end datetime values to change the data period. For example, to set the data from January 2010 to December 2020:
    ```
    start = datetime(2010, 1, 1)
    end = datetime(2021, 1, 1)
