@@ -41,4 +41,4 @@ You can customize the forecast by changing the location or the training data per
    end = datetime(2021, 1, 1)
    ```
 ## License
-This project is licensed under the MIT License - see the [LICENSE](?tab=MIT-1-ov-file) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
