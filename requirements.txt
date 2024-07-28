@@ -1,0 +1,4 @@
+numpy
+meteostat
+matplotlib
+statsmodels
